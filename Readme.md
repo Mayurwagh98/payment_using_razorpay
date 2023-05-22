@@ -4,6 +4,10 @@ To run the backend run `npm start`
 ## Fronted
 To run the frontend run `npm run dev`
 
+## Tech Stacks
+- Backend:- `NodeJs`, `ExpressJs`, `MongoDB`
+- Frontend:- `ReactJs`, `ChakraUI` 
+
 ## Signup on Razorpay
 https://razorpay.com/
 
