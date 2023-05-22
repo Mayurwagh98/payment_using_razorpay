@@ -1,9 +1,11 @@
 import checkout from "../controllers/payment.controller.js";
 import express from "express"
+import {paymentConfirmation} from "../controllers/payment.controller.js"
 
-const paymentRouter = express.Router()
+const router = express.Router()
 
-paymentRouter.route("/checkout").post(checkout)
+router.route("/checkout").post(checkout)
 
+router.route("/paymentconfirmation").post(paymentConfirmation);
 
-export default paymentRouter
+export default router
