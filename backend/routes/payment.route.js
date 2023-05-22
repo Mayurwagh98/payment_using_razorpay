@@ -4,8 +4,8 @@ import {paymentConfirmation} from "../controllers/payment.controller.js"
 
 const router = express.Router()
 
-router.route("/checkout").post(checkout)
+router.post("/checkout",checkout)
 
-router.route("/paymentconfirmation").post(paymentConfirmation);
+router.post("/paymentconfirmation", paymentConfirmation)
 
 export default router
