@@ -16,14 +16,14 @@ const Home = () => {
       } = await axios.get("http://www.localhost:5000/api/getkey");
 
       const options = {
-        key: key,
-        amount: order.amount,
+        key: key, // fetching key from backend, using api
+        amount: order.amount, // getting amount from line 10
         currency: "INR",
         name: "Mayur Wagh",
         description: "Payment using Razorpay",
-        image: "https://avatars.githubusercontent.com/u/69896733?v=4",
+        image: "https://avatars.githubusercontent.com/u/69896733?v=4", // profile pic
         order_id: order.id,
-        callback_url: "http://localhost:5000/api/payment/paymentconfirmation",
+        callback_url: "http://localhost:5000/api/payment/paymentconfirmation", // backend api to redirect once the payment is done
         prefill: {
           name: "Mayur wagh",
           email: "mayur.wagh@example.com",
