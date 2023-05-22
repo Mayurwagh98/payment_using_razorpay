@@ -4,6 +4,9 @@ To run the backend run `npm start`
 ## Fronted
 To run the frontend run `npm run dev`
 
+## Signup on Razorpay
+https://razorpay.com/
+
 ## For fake credential you can use this link
 https://razorpay.com/docs/payments/payments/test-card-upi-details/
 
@@ -20,7 +23,7 @@ https://razorpay.com/docs/payments/payments/test-card-upi-details/
 ![Screenshot (988)](https://github.com/Mayurwagh98/payment_using_razorpay/assets/69896733/b1a7f219-df5a-4a1b-a918-6d297441080e)
 
 ### OTP 
-`Note`:- If you are putting fake number an don't have otp, then click `Complete payment on bank's page`
+`Note`:- If you are putting a fake number an don't have an otp, then click `Complete payment on bank's page`
 
 ![Screenshot (994)](https://github.com/Mayurwagh98/payment_using_razorpay/assets/69896733/7be6f2df-7396-43ed-bcc6-7335e16c6a72)
 
